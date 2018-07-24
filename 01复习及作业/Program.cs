@@ -32,7 +32,6 @@ namespace _01复习及作业
             int[] number = {12,34,56,52,99,47,86,19};
             for(int i = 0; i < number.Length; i++)
             {
-                
                 sum += number[i];
             }
             //for (int i = 0; i < number.Length; i++)
