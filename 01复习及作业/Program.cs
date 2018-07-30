@@ -114,7 +114,26 @@ namespace _01复习及作业
             }
             */
 
-            Console.ReadKey();
+            //冒泡排序
+            int[] score = {18,20,48,76,20,38,87,90,37,45,65,65,34,67,95 };
+            for (int i = 0; i < score.Length-1; i++)    //控制比较的遍数，循环一次表示比较了一遍
+            {
+                for(int j = 0; j < score.Length - 1 - i; j++)   //每循环一次，比较的元素-1
+                {
+                    if (score[j] < score[j + 1])    //控制输出的排序
+                    {
+                        int temp = score[j];
+                        score[j] = score[j + 1];
+                        score[j + 1] = temp;
+                    }
+                    
+                }
+            }
+            for (int i = 0; i < score.Length; i++)
+            {
+                Console.WriteLine(score[i]);
+            }
+                Console.ReadKey();
         }
     }
 }
