@@ -113,7 +113,7 @@ namespace _01复习及作业
                 Console.WriteLine(names[i]);
             }
             */
-
+            
             //冒泡排序
             int[] score = {18,20,48,76,20,38,87,90,37,45,65,65,34,67,95 };
             for (int i = 0; i < score.Length-1; i++)    //控制比较的遍数，循环一次表示比较了一遍
@@ -133,7 +133,20 @@ namespace _01复习及作业
             {
                 Console.WriteLine(score[i]);
             }
-                Console.ReadKey();
+            /* 重写99乘法表输出
+             int score = 10;
+             for (int i = 1; i < score; i++)
+             {
+                 for (int j = 1; j < score; j++)
+                 {
+
+                         Console.Write("{0}*{1}={2:00}  ",i,j,i*j);
+
+                 }
+                 Console.WriteLine();
+             }
+              */
+            Console.ReadKey();
         }
     }
 }
